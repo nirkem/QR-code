@@ -174,11 +174,10 @@ footer {
 	.container {
 		text-align: center;
 		background: #dbe2ef; /* Azureish White */
-		padding: 25px;
 		border: 1px solid #3f72af; /* Steel Blue */
-		width: 240px;
+		width: 260px;
 		border-radius: 5px;
-	
+		padding: 30px;
 	}
 
 	.qr-corner {
