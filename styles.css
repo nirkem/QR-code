@@ -156,6 +156,13 @@ footer {
 }
 
 @media (max-width: 500px) {
+	body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Ensures footer stays visible */
+        min-height: 100vh;
+        overflow-y: auto; /* Allows scrolling if needed */
+    }
 	h1 {
 		font-size: 20px;
 	}
@@ -167,7 +174,7 @@ footer {
 	.container {
 		text-align: center;
 		background: #dbe2ef; /* Azureish White */
-		padding: 10px;
+		padding: 25px;
 		border: 1px solid #3f72af; /* Steel Blue */
 		width: 240px;
 		border-radius: 5px;
@@ -182,5 +189,13 @@ footer {
 		align-items: center;
 		width: 80px;
 	}
+
+	footer {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
 	
 }
