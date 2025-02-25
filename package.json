@@ -1,0 +1,11 @@
+{
+  "name": "qr-project",
+  "version": "1.0.0",
+  "description": "website that takes a link and returns qr-code fot that link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nir Michalovitz",
+  "license": "ISC"
+}
